@@ -1,0 +1,12 @@
+.users{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.users__box{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
+  gap: 20px
+}

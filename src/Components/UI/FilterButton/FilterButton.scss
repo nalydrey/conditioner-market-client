@@ -1,0 +1,61 @@
+
+@mixin bar_hor {
+  position: absolute;
+  background: linear-gradient(90deg, transparent, cornflowerblue 50%, transparent);
+  height: 3px;
+  width: 100%;
+}
+
+.filter{
+  transition: .2s;
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+  -1px -1px 1px 0 rgba(255, 255, 255, 0.3);
+  color: white;
+  background: #444649;
+  overflow: hidden;
+  border-radius: 5px;
+  position: relative;
+  border: none;
+}
+
+.filter__text{
+  display: block;
+  transition: .2s;
+}
+
+.filter__bottom{
+  @include bar_hor;
+  transition: 1s;
+  transform: scale(.5, 1);
+  left:0;
+  bottom: 0;
+}
+
+.filter:hover{
+  box-shadow: -3px -3px 10px 0 rgba(0, 0, 0, 0.25),
+  1px 1px 1px 0 rgba(255, 255, 255, 0.3);
+  .filter__text{
+    transform: scale(0.90);
+  }
+}
+
+
+.filter--active{
+  box-shadow: -3px -3px 10px 0 rgba(0, 0, 0, 0.25),
+  1px 1px 1px 0 rgba(255, 255, 255, 0.3);
+  .filter__bottom{
+    transform: scale(1.5, 1);
+  }
+  .filter__text{
+    transform: scale(0.90);
+  }
+}
+
+.filter:active{
+  //background: #1773b7;
+  .filter__bottom {
+    transition: .3s;
+    transform: scale(1.5, 1);
+  }
+}
+

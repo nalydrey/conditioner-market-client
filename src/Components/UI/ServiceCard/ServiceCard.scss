@@ -1,0 +1,38 @@
+.service-card{
+  color: white;
+  //border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 10px;
+  background: #444649;
+  min-width: 400px;
+
+}
+
+.service-card__cont{
+  min-width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(57, 57, 65, 0.75);
+  box-shadow: -1px -1px 1px 0 rgba(255, 255, 255, 0.3), 4px 7px 5px -3px rgba(35, 32, 32, 0.75);
+}
+
+.service-card__decor{
+  min-width: 100px;
+  height: 10px;
+  background: #cbac8a;
+}
+
+@media (max-width: 440px) {
+  .service-card{
+    min-width: 320px;
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+  }
+  .service-card__cont{
+    padding: 7px;
+  }
+}

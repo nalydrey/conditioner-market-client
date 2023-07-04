@@ -1,0 +1,19 @@
+.get-in{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+  textarea{
+    grid-column: -1/1;
+    max-height: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 470px) {
+  .get-in{
+    grid-template-columns: 1fr;
+  }
+}

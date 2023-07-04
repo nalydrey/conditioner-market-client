@@ -1,0 +1,16 @@
+.faq__box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    textarea{
+        flex-grow: 1;
+        resize: none;
+        height: 150px;
+      }
+}
+
+.faq__top{
+    display: flex;
+    gap: 10px;
+}
+

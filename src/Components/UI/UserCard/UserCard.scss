@@ -1,0 +1,59 @@
+@mixin client {
+  color: #eac29a;
+  border-radius: 10px;
+  background: rgba(57, 57, 65, 0.75);
+  box-shadow: -1px -1px 1px 0 rgba(255, 255, 255, 0.3), 4px 7px 5px -3px rgba(35, 32, 32, 0.75);
+  padding: 3px 7px;
+}
+
+.user-card{
+  position: relative;
+  //border: 1px solid white;
+  border-radius: 8px;
+  padding: 10px;
+  min-width: 280px;
+  width: 100%;
+  background: rgb(68, 70, 73);
+}
+
+.user-card__ava{
+  @include client;
+  padding: 0;
+  overflow: hidden;
+  width: 80px;
+  height: 80px;
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.user-card__main{
+  display: flex;
+  gap: 10px;
+}
+
+.user_card__contacts{
+  @include client;
+  background: rgba(57, 57, 65, 0.75);
+  padding: 0 5px;
+  min-width:200px;
+  flex-grow: 1;
+}
+
+.user-card__date{
+  @include client;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-card__action{
+  text-align: end;
+}
+
+.user-card__activity{
+  margin-top: 10px;
+  @include client;
+}

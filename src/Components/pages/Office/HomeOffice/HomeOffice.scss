@@ -1,0 +1,43 @@
+.office-home{
+    color: white;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+
+.office-home__contacts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.office-home__price{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.faq{
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.office-home__action{
+  display: flex;
+  gap: 30px;
+}
+
+
+@media (max-width: 590px) {
+  .office-home__contacts{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 410px) {
+  .office-home__contacts{
+    grid-template-columns: 1fr
+  }
+}

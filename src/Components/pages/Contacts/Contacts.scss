@@ -1,0 +1,37 @@
+.contacts{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  //h1{
+  //  color: white
+  //}
+}
+
+.contacts__box{
+  display: flex;
+  flex-direction: column;
+  gap: 20px
+}
+.contacts__item{
+  //border: 1px solid white;
+  background: #444649;
+  //color: white;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-size: 24px;
+}
+
+.contact__sign{
+    width: 50px;
+  height: 50px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

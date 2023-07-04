@@ -1,0 +1,18 @@
+.new-service{
+    display: flex;
+    gap: 15px;
+}
+.new-service__wrap{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+@media (max-width: 590px) {
+    .new-service{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .new-service__wrap{
+        width: 100%;
+    }
+}
