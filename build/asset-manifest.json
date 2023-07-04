@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5fbcd06a.css",
+    "main.js": "/static/js/main.a1408659.js",
+    "static/media/conditioner4.jpg": "/static/media/conditioner4.f9e4d93f9de61729b9cd.jpg",
+    "static/media/viber.png": "/static/media/viber.7cbef658b16142a92f38.png",
+    "static/media/telegram.png": "/static/media/telegram.3bc670cff41731ac9421.png",
+    "static/media/conditioner1.jpg": "/static/media/conditioner1.7566f96720f242d34f25.jpg",
+    "static/media/watsapp.png": "/static/media/watsapp.d24e7774ba010f68b951.png",
+    "static/media/conditioner.png": "/static/media/conditioner.8779092d4b69b4c06532.png",
+    "index.html": "/index.html",
+    "main.5fbcd06a.css.map": "/static/css/main.5fbcd06a.css.map",
+    "main.a1408659.js.map": "/static/js/main.a1408659.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5fbcd06a.css",
+    "static/js/main.a1408659.js"
+  ]
+}
